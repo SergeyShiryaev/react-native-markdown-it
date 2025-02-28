@@ -62,6 +62,13 @@ const renderRules = {
   ),
 
   // Emphasis
+  
+  muted: (node, children, parent, styles) => (
+    <Text key={node.key} style={styles.ins}>
+      {children}
+    </Text>
+  ),
+  
   strong: (node, children, parent, styles) => (
     <Text key={node.key} style={styles.strong}>
       {children}
@@ -74,6 +81,11 @@ const renderRules = {
   ),
   s: (node, children, parent, styles) => (
     <Text key={node.key} style={styles.s}>
+      {children}
+    </Text>
+  ),
+  muted: (node, children, parent, styles) => (
+    <Text key={node.key} style={styles.muted}>
       {children}
     </Text>
   ),

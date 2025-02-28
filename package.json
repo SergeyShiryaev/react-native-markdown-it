@@ -1,7 +1,7 @@
 {
-  "name": "react-native-markdown-display",
-  "version": "7.0.2",
-  "description": "Markdown renderer for react-native, with CommonMark spec support + adds syntax extensions & sugar (URL autolinking, typographer), originally created by Mient-jan Stelling as react-native-markdown-renderer",
+  "name": "react-native-markdown-it",
+  "version": "1.0.0",
+  "description": "This is a fork of [react-native-markdown-display](https://github.com/iamacup/react-native-markdown-display), a library that unfortunately has not been updated for some time.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamacup/react-native-markdown-display.git"
+    "url": "git+https://github.com/SergeyShiryaev/react-native-markdown-it"
   },
   "keywords": [
     "react",
@@ -22,15 +22,10 @@
     "commonmark",
     "markdown-it"
   ],
-  "author": "Mient-jan Stelling and Tom Pickard + others from the community",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iamacup/react-native-markdown-display/issues"
-  },
-  "homepage": "https://github.com/iamacup/react-native-markdown-display/",
   "dependencies": {
     "css-to-react-native": "^3.0.0",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^14.1.0",
     "prop-types": "^15.7.2",
     "react-native-fit-image": "^1.5.5"
   },
@@ -39,15 +34,16 @@
     "react-native": ">=0.50.4"
   },
   "devDependencies": {
-    "@types/markdown-it": "^10.0.1",
-    "@types/react-native": ">=0.50.0",
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",
-    "@react-native-community/eslint-config": "^1.1.0",
-    "@typescript-eslint/parser": "^2.32.0",
-    "eslint": "^7.0.0",
-    "json-schema": "^0.2.5",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/markdown-it": "^14.1.2",
+    "@types/react-native": ">=0.50.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "json-schema": "^0.4.0",
     "pre-commit": "1.2.2",
-    "typescript": "^3.8.3"
-  }
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
