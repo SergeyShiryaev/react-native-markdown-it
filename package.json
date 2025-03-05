@@ -1,6 +1,6 @@
 {
   "name": "react-native-markdown-it",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "This is a fork of [react-native-markdown-display](https://github.com/iamacup/react-native-markdown-display), a library that unfortunately has not been updated for some time.",
   "main": "src/index.js",
   "types": "src/index.d.ts",

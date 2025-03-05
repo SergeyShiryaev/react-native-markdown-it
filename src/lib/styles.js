@@ -154,7 +154,6 @@ export const styles = {
 
   // Links
   link: {
-    textDecorationLine: 'underline',
   },
   blocklink: {
     flex: 1,

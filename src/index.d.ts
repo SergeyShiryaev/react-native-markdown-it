@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
-import MarkdownIt from 'markdown-it';
-import Token from 'markdown-it/lib/token';
-import { ComponentType, PropsWithChildren, ReactNode } from 'react';
+import MarkdownIt, { Token } from 'markdown-it';
+import { ComponentType, JSX, PropsWithChildren, ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
+import textStyleProps from './lib/data/textStyleProps';
 
 export function getUniqueID(): string;
 export function openUrl(url: string): void;
@@ -102,5 +102,5 @@ export interface MarkdownProps extends PropsWithChildren {
 type MarkdownStatic = ComponentType<MarkdownProps>;
 export const Markdown: MarkdownStatic;
 export type Markdown = MarkdownStatic;
-export { MarkdownIt };
+export { MarkdownIt, textStyleProps };
 export default Markdown;
